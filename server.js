@@ -11,4 +11,4 @@ echo.on('connection', function(conn) {
 
 var server = http.createServer();
 echo.installHandlers(server, {prefix:'/'});
-server.listen(9999, '0.0.0.0');
+server.listen(9999, '127.0.0.1');
